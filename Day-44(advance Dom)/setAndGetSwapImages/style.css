@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body,html{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(65, 63, 63);
+}
+img{
+
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+button{
+    padding: 20px;
+    font-size: large;
+    color: antiquewhite;
+    background: #0c6dc2;
+    border: none;
+    border-radius: 10px;
+}
+
+button:active{
+    scale: 0.95;
+}
+
