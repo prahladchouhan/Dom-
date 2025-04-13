@@ -10,6 +10,7 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: rgb(53, 51, 51);
+
 }
 button{
     padding: 15px 20px;
@@ -19,6 +20,8 @@ button{
     border-radius: 10px;
     font-size: larger;
     font-weight: 700;
+    position: relative;
+    z-index: 8;
 }
 button:active{
     scale: 0.95;
