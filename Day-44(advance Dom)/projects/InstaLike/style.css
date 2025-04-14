@@ -1,0 +1,34 @@
+*{
+    margin :0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 76, 99);
+}
+
+.card{
+    padding :50px;
+    height: 500px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+.count{
+    display: flex;
+    align-items: flex-start;
+    gap:20px;
+    margin-left:5px ;
+}
+.count h4{
+    margin-top: 20px;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 2px 3px 4px rgb(185, 188, 185);
+}
