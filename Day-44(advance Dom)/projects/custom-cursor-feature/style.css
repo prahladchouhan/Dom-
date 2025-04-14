@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cursor-area{
+    width: 400px ;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cursor-area h2{
+    padding: 40px;
+    font-weight: 500;
+    font-size: 60px;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* Custom cursor styling */
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: transform 0.1s ease;
+  }
