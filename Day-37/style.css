@@ -5,9 +5,13 @@
 }
 
 html,body{
-
+    height: 100%;
+    width: 100%;
     background-color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -19,7 +23,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .card {
     text-align: center;
